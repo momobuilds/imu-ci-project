@@ -17,6 +17,7 @@ int main()
     std::cout << "gx = " << data.gx << '\n';
     std::cout << "gy = " << data.gy << '\n';
     std::cout << "gz = " << data.gz << '\n';
-
+    std::cout << "\nTemperature:\n";
+    std::cout << data.temperature << " C\n";
     return 0;
 }

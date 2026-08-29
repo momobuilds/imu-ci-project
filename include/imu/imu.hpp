@@ -10,6 +10,7 @@ struct ImuData {
     double gx;
     double gy;
     double gz;
+    double temperature;
 };
 
 class ImuSensor {
@@ -20,3 +21,4 @@ public:
 };
 
 }
+

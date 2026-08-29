@@ -15,7 +15,7 @@ ImuData ImuSensor::read() const
     data.gx = 0.0;
     data.gy = 0.0;
     data.gz = 0.0;
-
+    data.temperature = 25.0;
     return data;
 }
 
