@@ -10,7 +10,7 @@ ImuData ImuSensor::read() const
 
     data.ax = 0.0;
     data.ay = 0.0;
-    data.az = 9.81;
+    data.az = 6.0;
 
     data.gx = 0.0;
     data.gy = 0.0;
